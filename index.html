@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quien eres</title>
+    </head>
+    <body onload="hey()">Meli estoy enamorado tuyo</body>
+    <script>
+        function hey() {
+            let pregunta = prompt('Eres Meli?', 'Si') 
+            if (pregunta === 'Si' || pregunta === 'si' || pregunta === 'Si soy' || pregunta === 'si soy') return window.location.href = './para-meli.html'
+            return window.location.href = './no-eres-meli.html';
+        }
+    </script> 
+</html>
